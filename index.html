@@ -1,21 +1,15 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Static Site</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
   </head>
-  <body>
-    <div id="elm-app"></div>
+
+  <body class="bg-near-white dark-blue w-100 sans-serif">
+    <div id="elm-code-is-loaded-here"></div>
+
     <script src="elm.js"></script>
     <script>
-      const elmDiv = document.querySelector('#elm-app');
-      if (elmDiv) {
-        var myApp = Elm.Main.embed(elmDiv);
-      }
+      Elm.Main.embed(document.getElementById("elm-code-is-loaded-here"));
     </script>
   </body>
 </html>
