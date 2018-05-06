@@ -8147,150 +8147,108 @@ var _elm_lang$html$Html_Attributes$style = _elm_lang$virtual_dom$VirtualDom$styl
 
 var _user$project$Main$header = function (model) {
 	return A2(
-		_elm_lang$html$Html$div,
-		{
-			ctor: '::',
-			_0: _elm_lang$html$Html_Attributes$class('pv2 fl w-75-ns w-100 '),
-			_1: {ctor: '[]'}
-		},
+		_elm_lang$html$Html$section,
+		{ctor: '[]'},
 		{
 			ctor: '::',
 			_0: A2(
-				_elm_lang$html$Html$h1,
+				_elm_lang$html$Html$div,
 				{
 					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('f4 f1-ns fw6 mb2'),
-					_1: {ctor: '[]'}
+					_0: _elm_lang$html$Html_Attributes$class('cf'),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$style(
+							{
+								ctor: '::',
+								_0: {ctor: '_Tuple2', _0: 'background', _1: 'url(http://mrmrs.github.io/photos/12.jpg) no-repeat center center fixed'},
+								_1: {
+									ctor: '::',
+									_0: {ctor: '_Tuple2', _0: 'background-size', _1: 'cover'},
+									_1: {ctor: '[]'}
+								}
+							}),
+						_1: {ctor: '[]'}
+					}
 				},
 				{
 					ctor: '::',
-					_0: _elm_lang$html$Html$text('Welcome to Dunder Mifflin!'),
-					_1: {ctor: '[]'}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A2(
-					_elm_lang$html$Html$p,
-					{
-						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$class('f5 f4-ns measure lh-copy mt0'),
-						_1: {ctor: '[]'}
-					},
-					{
-						ctor: '::',
-						_0: _elm_lang$html$Html$text('Dunder Mifflin Inc. (stock symbol '),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$strong,
-								{ctor: '[]'},
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html$text('DMI'),
-									_1: {ctor: '[]'}
-								}),
-							_1: {
-								ctor: '::',
-								_0: _elm_lang$html$Html$text(') is a micro-cap regional paper and office supply distributor with an emphasis on servicing small-business clients.'),
-								_1: {ctor: '[]'}
-							}
-						}
-					}),
-				_1: {
-					ctor: '::',
 					_0: A2(
-						_elm_lang$html$Html$p,
+						_elm_lang$html$Html$div,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('f6 measure lh-copy'),
+							_0: _elm_lang$html$Html_Attributes$class('fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times'),
 							_1: {ctor: '[]'}
 						},
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html$text('In visual perception a colour is almost never seen as it really is – as it physically is. This fact makes color the most relative medium in art. -- Josef Albers'),
-							_1: {ctor: '[]'}
+							_0: _user$project$Main$header(
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('bb b--black-70 pv4'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$h3,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('f2 fw7 ttu tracked lh-title mt0 mb3 avenir'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('Prasat Suor Prat'),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$h4,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('f3 fw4 i lh-title mt0'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('Siem Reap, Cambodia'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {ctor: '[]'}
+								}
+							}
 						}),
 					_1: {
 						ctor: '::',
 						_0: A2(
-							_elm_lang$html$Html$div,
+							_elm_lang$html$Html$section,
 							{
 								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('pv2 fl w-75-ns w-100 '),
+								_0: _elm_lang$html$Html_Attributes$class('pt5 pb4'),
 								_1: {ctor: '[]'}
 							},
 							{
 								ctor: '::',
 								_0: A2(
-									_elm_lang$html$Html$h1,
+									_elm_lang$html$Html$p,
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('f4 f1-ns fw6 mb2'),
+										_0: _elm_lang$html$Html_Attributes$class('times lh-copy measure f4 mt0'),
 										_1: {ctor: '[]'}
 									},
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html$text('Welcome to Dunder Mifflin!'),
+										_0: _elm_lang$html$Html$text('Prasat Suor Prat (Khmer: ប្រាសាទសួព្រ័ត) '),
 										_1: {ctor: '[]'}
 									}),
 								_1: {ctor: '[]'}
 							}),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$div,
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('pv2 fl w-50-ns w-50 '),
-									_1: {ctor: '[]'}
-								},
-								{
-									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$h1,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('f5 f1-ns fw6 mb2'),
-											_1: {ctor: '[]'}
-										},
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html$text('Welcome to Dunder Mifflin!'),
-											_1: {ctor: '[]'}
-										}),
-									_1: {ctor: '[]'}
-								}),
-							_1: {
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$div,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('mw5 mw7-ns center bg-light-gray pa3 ph5-ns'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$h1,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('f5 f1-ns fw6 mb2'),
-												_1: {ctor: '[]'}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('Welcome to Dunder Mifflin!'),
-												_1: {ctor: '[]'}
-											}),
-										_1: {ctor: '[]'}
-									}),
-								_1: {ctor: '[]'}
-							}
-						}
+						_1: {ctor: '[]'}
 					}
-				}
-			}
+				}),
+			_1: {ctor: '[]'}
 		});
 };
 var _user$project$Main$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
